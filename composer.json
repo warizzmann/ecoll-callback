@@ -1,0 +1,21 @@
+{
+    "name": "bni-ecollection/ecoll-callback",
+    "description": "An extension to get BNI eCollection Callback Request",
+    "type": "yii2-extension",
+    "keywords": ["bni-ecollection","bni","ecollection"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Warisman Syam",
+            "email": "warisman@docotel.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ecoll\\callback\\": ""
+        }
+    }
+}
