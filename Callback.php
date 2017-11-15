@@ -12,6 +12,14 @@ class Callback extends \yii\base\Widget
         Yii::$app->controller->enableCsrfValidation = false;
     }
 
+    /**
+     * Parsing data request callback ecollection
+     *
+     * @param string $BniHashingClass
+     * @param string $raw_data
+     * @param string $secret_key
+     * @return array|null
+     */
     public function parseData($BniHashingClass, $raw_data, $secret_key)
     {
         $result = null;
